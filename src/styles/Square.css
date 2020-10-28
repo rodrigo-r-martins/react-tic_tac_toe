@@ -1,0 +1,9 @@
+.app__square {
+  width: 70px;
+  height: 70px;
+  background-color: whitesmoke;
+  font-size: 40px;
+  font-weight: 700;
+  border: 2px solid grey;
+  margin: 1px 1px;
+}

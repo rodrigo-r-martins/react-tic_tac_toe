@@ -1,0 +1,13 @@
+.app__game {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 5px solid black;
+  background-color: lightgray;
+  padding-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
