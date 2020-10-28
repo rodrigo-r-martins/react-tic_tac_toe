@@ -4,9 +4,9 @@ import '../styles/Game.css';
 
 const Game = () => {
     return (
-        <div className='game'>
+        <div className='app__game'>
             <h1>Tic Tac Toe</h1>
-            <div className='app__game'>
+            <div className='app__container'>
                 <Board /> 
             </div>
         </div>
