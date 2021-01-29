@@ -21,3 +21,16 @@ h1 {
   font-weight: 100;
   letter-spacing: 2px;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: xx-large;
+    margin-top: 0;
+    margin-bottom: 0;  
+  }
+
+  .app__container {
+    padding-bottom: 0;
+    width: auto;
+  }
+}
