@@ -1,9 +1,5 @@
-* {
-    margin: 10px;
-}
-
 .app__status {
-    margin-top: 20px;
+  margin-top: 20px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 1px;
@@ -14,6 +10,20 @@
   margin-right: auto;
   padding: 5px 15px;
   background-color: lightyellow;
+}
+
+@media only screen and (max-width: 600px) {
+  .app__status {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+
+  .restart__button {
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
 }
 
 .board__squares {
